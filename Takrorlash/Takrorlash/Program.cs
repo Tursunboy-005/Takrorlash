@@ -10,6 +10,7 @@ namespace Takrorlash
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("");
         }
     }
 }
