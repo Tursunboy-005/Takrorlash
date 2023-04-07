@@ -10,7 +10,19 @@ namespace Takrorlash
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("");
+            Console.Write("Enter array of row : ");
+            int row = int.Parse(Console.ReadLine());
+            
+            for(int i = 0; i < row;i++)
+            {
+                Console.Write($"{i} ");
+                for(int j = 0; j < i;j++)
+                {
+                    Console.Write($"{j} ");
+                }
+                Console.WriteLine(" ");
+            }
+
         }
     }
 }
